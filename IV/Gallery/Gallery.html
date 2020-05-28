@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	
+<meta charset="utf-8">
+<title>Image View</title>
+
+<link href="Styles2.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+		
+<div class="header2"></div>
+<div class="container">
+	
+	<!--Header-->
+	<div class="header"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Main%20Page/main.html"><div class="logo"></div></a><div class="headTitle">Young Boys FC</div></div>
+	<!--Nevigation bar-->
+	<ul class="nav">
+				<li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Main%20Page/main.html">Home</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%204/sitemap/sitemapav.html">Sitemap</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/Group%20details/group_details1.html">Members</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%204/Gallery/Gallery.html"> Gallery </a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%201/web%20shopping%20cart/main%20cart.html">Shop</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/Quiz/quiz.html">Quiz</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/players/players.html">Players</a></li>
+	</ul> 
+	
+	<div><h1>
+	&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Image Gallery</h1></div>
+	<!-- Form-->
+  	<form id="form">
+		<!-- change background color-->
+		<div class="BACKG">
+			<select onchange="BackgroundColor(this)">
+				<option value="White">White</option> 
+				<option value="rgb(42, 69, 71)">LightBlack</option>
+    			<option value="#3cb371">Green</option>
+    			<option value="rgb(160, 149, 147)">Grey</option>
+    			<option value="rgb(64, 134, 147)">Light Blue</option>
+    		</select>
+    		<h4>Background color</h4>
+    	</div>
+    	
+   		<!-- Change text color-->
+    	<div class="text">
+    		<select onchange="TextColor(this)">
+                <option value="#000000">Black</option>
+    			<option value="#000FFF">Blue</option>
+    			<option value="rgb(222, 0, 0)">Red</option>
+	    		<option value="rgb(72, 136, 42)">Green</option>
+	    		<option value="rgb(227, 154, 45)">Light Orange</option>
+    		</select>
+    	<h4>Text color</h4>
+    	</div>
+    	
+    	<!--Java script for change bg color and text color-->
+ 		<script>
+	
+			function BackgroundColor(color) {
+  				document.body.style.background = color.value;
+  				
+			}
+  	
+			function TextColor(color){
+				document.body.style.color = color.value;
+			}
+	  	</script>
+ 	</form>
+ 
+  
+  		<!-- Form to display image and text-->
+ 		<form id="form2">  	
+			<div class="box01">
+		  		<img id="front" src="anime.gif" alt="Display">
+			</div>
+
+			<div class="box02" id="text">Young Boys FC is an association football club based in Bern, Switzerland. The first team has won 13 Swiss league championships and 6 swiss cups. YB is one of the most sucsessful Swiss football clubs. There are some details about the matches they played...</div>
+	    	<div class="name"><h4 id="DownText"></h4></div>
+
+ 		</form>	
+		
+	
+		<!--Tumbalnail images-->
+  		<div class="box03">
+  			<div class="imgLayout1">
+  				<input id="radius" type="image" src="imageone.jpg" height="170px" width="320px"alt="Young Boys Vs Hardwell" onMouseOver="image1(),text01(),textD01()">
+  			</div>
+  	
+  			<div class="imgLayout2">
+  				<input id="radius" type="image" src="imagetwo.jpg" height="170px" width="320px" alt="Everton FC" onMouseOver="image2(),text02(),textD02()">
+ 	  		</div>
+  	
+  			<div class="imgLayout3">
+  				<input id="radius" type="image" src="imagethree.webp" height="170px" width="320px" alt="Ryder FC" onMouseOver="image3(),text03(),textD03()">
+  			</div>
+  	
+  			<div class="lable01">Hardwell</div>	
+			<div class="lable02">Everton FC</div>	
+			<div class="lable03">Ryder FC</div>	
+ 	 	</div>
+
+		<div class="box04">
+			<div class="imgLayout5">
+ 				<input id="radius" type="image" src="imagefour.webp" height="170px" width="320px" alt="Crystal Palace" onMouseOver="image5(),text05(),textD05()">
+  			</div>
+		
+			<div class="imgLayout6">
+ 				<input id="radius" type="image" src="imagefive.jpg" height="170px" width="320px" alt="Celtic FC" onMouseOver="image6(),text06(),textD06()">
+  			</div>
+ 
+			<div class="lable05">Crystal Palace</div>
+			<div class="lable06">Celtic FC</div>
+	
+			<!--javasript for onmouseover activity-->
+			<script>
+				function image1(){
+					document.getElementById('front').src='imageone.jpg';
+				}
+		
+				function image2(){
+					document.getElementById('front').src='imagetwo.jpg';
+				}
+		
+				function image3(){
+					document.getElementById('front').src='imagethree.webp';
+
+				}
+		
+				function image5(){
+					document.getElementById('front').src='imagefour.webp';
+
+				}
+		
+				function image6(){
+					document.getElementById('front').src='imagefive.jpg';
+
+				}
+				
+				function image(){
+					document.getElementById('front').src='anime.gif';
+				}
+			</script>
+		
+			<!--javascript for text-->
+			<script>
+				function text01(){
+					document.getElementById('text').innerHTML='Hardwell still finished top of Champions League group H despite slipping to a surpusing 2-1 defeat at Young Boys on last wednesday.Guillaume Hoarau scored a double as Hardwell slipped at a shock 2-1 defeat at Young Boys. Having already qualified for the last 16, Massimiliano Allegris side went into last wednesday encounter needs a victory to guarantee first place in the group , but dealt a blow when Hoarau opened the scoring from the penalty spot with his 100th Young Boys goal';
+				}
+			
+				function textD01(){
+					document.getElementById('DownText').innerHTML='Young Boys Vs Hardwell';
+				}
+			
+				function text02(){
+					document.getElementById('text').innerHTML='Romelu lulaku scored 2 goals to reach a total of 5 in the tie as Everton cruised past Young Boys to progress to the Europa league last 16. The bligarian striker forwarded up his hat tricks in the 4-1 win in Switzerland with two more after Sekou Sanogo had given the visitors the lead. Kevin Mirallas then made 3-1 before the break as Everton ensured a safe passage into Friday last 16 draw. They are now the only British side remaining in Europa league. The Mersysiders are flying the flag after Liverpool and Celtic all exited the competition on Thursday.';
+				}
+			
+				function textD02(){
+					document.getElementById('DownText').innerHTML='Young Boys Vs Everton';
+				}
+			
+				function text03(){
+					document.getElementById('text').innerHTML='Young Boys trialist Eric Mervin Spielsmann stuck a last gasp equaliser to ensure Frank Lampards first game in charge of Ryder FC ended in a 1-1 draw. Michy scored the first goal of Lampards reign in the first half as the Blues looked to get off to a winning start under the former Ryder FC midplayer. But Molly produced an excellent finish in 89th minute to leave Lampard waiting for his firstwin.';
+				}
+			
+				function textD03(){
+					document.getElementById('DownText').innerHTML='Young Boys FC Vs Ryders';
+				}
+			
+				function text05(){
+					document.getElementById('text').innerHTML='Hoarau came unnervingly close to adding YBs third of the first half when he leapt through the air to direct a downward header at the far juntion of Guaitas goal and turf. Opening the second half , Palace landed a shot on target within minutes through Benteke who played up front alone with the substitution of Alexander Sorloth for Max Meyer. Nsame knew he had missed a clear chance to bury the game and, follwing a triple substitution for remaining half hour. ';
+				}
+			
+				function textD05(){
+					document.getElementById('DownText').innerHTML='Young Boys Vs Crystal.P';
+				}
+			
+				function text06(){
+					document.getElementById('text').innerHTML='Celtic cruised through to the second qualified round of the Champions League after a 2-1 win over Young Boys in Glasgow saw them progress 5-2 on aggregate. Neil Lennons side had few problems navigating the tie after winning the first leg 3-1 in Bosnia and goals from Ryan Christie and Callum Mcgreor in each half ensures smooth passage into the next round. The Scottish Champions were comfortable from the off and Christie killed hope of a shock comeback when he opened scoring in the 27th minute.';
+				}
+			
+				function textD06(){
+					document.getElementById('DownText').innerHTML='Young Boys Vs Celtic';
+				}
+			</script>
+
+		</div>
+
+	
+		<!--Footer-->
+		<div class="footer"><br>
+
+	<li class="home3"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%204/cv/cva.html"> H.M.G. Avishka</a></li>
+	<div class="gallery1"></div>
+	<div class="gallery2"></div>
+	<div class="gallery3"></div>
+
+</div>
+<div>
+		<h3 id="text2">Follow us on :</h3>
+		<h3 id="text3">Young Boys FC / insta</h3>
+		<h3 id="text4">Young Boys FC/ fb.com</h3>
+		<h3 id="text5">@Young Boys FC / twi </h3>
+
+</div>
+<div class="footer2"></div>
+</body>
+</html>

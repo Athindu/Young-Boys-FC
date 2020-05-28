@@ -1,0 +1,329 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #404040;
+}
+
+
+.topic{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #fff0b3;
+    color: black;
+    padding: 25px;
+    font-family: "Lucida Console",Monospace;
+}
+
+.fontAdjust{
+    width: 16%;
+    float: right;
+    background-color: #a3c2c2;
+    border-radius: 50px;
+    height: 100%;
+    padding: 10px 20px 10px 35px;
+    margin-top: -75px;
+    margin-right: 20px;
+}
+
+.navi{
+    width: 100%;
+    height:80px;
+    padding-top: 10px;
+    align-content: center;
+    background-color:#ffa31a;;
+    font-family: "Trebuchet MS",Sans-serif;
+}
+
+.nav{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 18px;
+    background-color: 
+  }
+
+.home1{
+    float: left;
+    border-radius: 25px 6px ;
+}
+           
+.home1 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+   }
+          
+.home1 a:hover {
+    background-color: #205B5A;
+
+  }
+
+.saleContainer{
+    width: 60%;
+    height: 300px;
+    background-color: lightblue;
+    margin-left: 5%;
+    opacity: 0.8;
+    border-radius: 6px;
+}
+
+.saleImage{
+    height: 298px;
+	width: 35%;
+    border: 2px solid #FFFFFF;
+    margin-top: 5px;
+    background-color: black;
+    
+}
+
+div.saleImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.saleHeader{
+    width: 60%;
+    height: 20%;
+    float: right;
+    background-color: bisque;
+    border-radius: 50px;
+    margin-top: -35%;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 40px;
+    border: 1px solid #FFFFFF;
+}
+
+.saleDetail{
+    width: 60%;
+    height: 40%;
+    float: right;
+    font-family: "Trebuchet MS",Sans-serif;
+    background-color:  #cc6600;
+    margin-top: -25%;
+    margin-right: 20px;
+}
+
+.saleQuantity{
+    width: 35%;
+    height: 15%;
+    font-family: "Trebuchet MS",Sans-serif;
+    background-color: #ff6666;
+    border-radius: 20px;
+    margin-top: -8%;
+    margin-left: 45%;
+    
+    text-align: center;
+}
+
+.saleInput{
+    width: 10%;
+    height: 15%;
+    margin-top: -8%;
+    float: right;
+    margin-right: 20px;
+}
+
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button{
+    width: 100%;
+    background-color: #ff751a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: black;
+    color : white;
+}
+
+.formStyle{
+    position: fixed;
+    width : 25%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    right: 0px;
+}
+
+table{
+    font-size: 20px;
+    width:100%; 
+    height:100%; 
+}
+
+
+
+.home3{
+    float: left;
+    border-radius: 25px 6px ;
+    list-style-type: none;
+    margin-top: -9px;
+}
+
+.home3 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    border-radius: 50px 11px ;
+    width: 250px;
+}
+
+.home3 a:hover{
+    background-color: #205B5A;
+}
+
+.gallery1{
+    background-image: url(download.png);
+    background-size:     cover;                     
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+.gallery2{
+    background-image: url(f.png);
+    background-size:     cover;                      
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+.gallery3{
+    background-image: url(t.png);
+    background-size:     cover;                      
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+
+#text2{
+    color: #ffffff;
+    width: 140px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+
+#text3{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -170px;
+}
+
+#text4{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -110px;
+}
+
+#text5{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -50px;
+}
+
+.footer{
+    background: #000000;
+    height: 200px;
+    background-image: url(soccer-stock.jpg);
+    background-size: cover;                
+}
+
+
+.home3{
+    float: left;
+    border-radius: 25px 6px ;
+    list-style-type: none;
+    margin-top: -9px;
+}
+
+.home3 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    border-radius: 50px 11px ;
+    width: auto;
+    }
+
+.home3 a:hover{
+    background-color: #205B5A;
+}
+
+
+.header{
+    background: #000000;
+    height: 200px;
+    background-image: url(soccer-stock.jpg);
+    background-size: cover; 
+}
+
+.headTitle{
+	color: #FFFFFF;
+    text-align: center;
+    font-size: 50px;
+    font-family:  Copperplate Gothic Light;
+    font-weight: bold;
+    margin-left: auto;
+    margin-top: -110px;
+    margin-right: auto;
+}
+	
+.logo{
+	width: 150px;
+	height: 150px;
+	background-image: url(Logo.png);
+	background-size: cover;
+	background-position: center;
+	margin-left: 50px;
+    border-radius: 10% 20% 10% 20%;
+    margin-top: 10px;
+}
+
+a{
+	width: 100px;
+	font-size: 20px
+}

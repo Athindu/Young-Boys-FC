@@ -1,0 +1,327 @@
+
+.column1 {
+	text-align: center;
+	display:block;
+  	float: left;
+  	width: 30%;
+  	padding: 5px;
+  	position: absolute;
+  	left: 2%;
+}
+
+.image1 {
+  display:block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  background: #ffd1b3;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 98%;
+  opacity: 0.8;
+  color: white;
+}
+
+.navi{
+    width: 100%;
+    height:80px;
+    padding-top: 10px;
+    align-content: center;
+    background-color:#ffa31a;;
+    font-family: "Trebuchet MS",Sans-serif;
+}
+
+.nav{
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    position: absolute;
+    margin-left: 18px;
+    background-color: 
+}
+
+.home1{
+    float: left;
+    border-radius: 25px 6px ;
+}
+           
+.home1 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+          
+.home1 a:hover {
+    background-color: #205B5A;
+
+}
+
+.column1:hover .overlay1 {
+  height: 100%;
+}
+
+.text1 {
+  white-space: pre; 
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Copperplate Gothic Light; 
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.column2 {
+	text-align: center;
+	display:block;
+  	float: left;
+  	width: 30%;
+  	padding: 5px;
+  	position: absolute;
+  	left: 35%;
+}
+
+.image2 {
+  display:block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: #ffd1b3;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 98%;
+  opacity: 0.8;
+  color: white;
+}
+
+.column2:hover .overlay2 {
+  height: 100%;
+}
+
+
+
+.column3 {
+	text-align: center;
+	display:block;
+  	float: left;
+  	width: 30%;
+  	padding: 5px;
+  	position: absolute;
+  	right: 2%;
+}
+
+.image3 {
+  display:block;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  background: #ffd1b3;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 98%;
+  opacity: 0.8;
+  color: white;
+}
+
+.column3:hover .overlay3 {
+  height: 100%;
+}
+
+
+.column1 img{
+	border-radius: 20px;
+}
+
+.column2 img{
+	border-radius: 20px;
+}
+
+.column3 img{
+	border-radius: 20px;
+}
+
+
+.header{
+		background: #000000;
+		height: 200px;
+        background-image: url(soccer-stock.jpg);
+        background-size: cover;                
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+	background-color: black;
+}
+
+
+
+.topic{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #fff0b3;
+    color: black;
+    padding: 25px;
+    font-family: "Lucida Console",Monospace;
+}
+
+
+.gallery1{
+    background-image: url(download.png);
+    background-size:     cover;                     
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+.gallery2{
+    background-image: url(f.png);
+    background-size:     cover;                      
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+.gallery3{
+    background-image: url(t.png);
+    background-size:     cover;                      
+    background-position: center;
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 1050px;
+    border-radius: 10px;
+}
+
+#text2{
+    color: #ffffff;
+    width: 140px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+
+#text3{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -170px;
+}
+
+#text4{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -110px;
+}
+
+#text5{
+    color: #ffffff;
+    width: 150px;
+    position: absolute;
+    margin-left: 1110px;
+    margin-top: -50px;
+}
+
+.footer{
+    background: #000000;
+	height: 200px;
+    background-image: url(soccer-stock.jpg);
+    background-size: cover;   
+    margin-top: 500px;            
+}
+
+
+.home3{
+    float: left;
+    border-radius: 25px 6px ;
+    list-style-type: none;
+    margin-top: -9px;
+}
+
+.home3 a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+    border-radius: 50px 11px ;
+    width: auto;
+    }
+
+.home3 a:hover{
+    background-color: #205B5A;
+}
+
+
+
+.headTitle{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 50px;
+	font-family:  Copperplate Gothic Light;
+	font-weight: bold;
+	margin-left: auto;
+	margin-top: -110px;
+	margin-right: auto;
+}
+	
+.logo{
+	width: 150px;
+	height: 150px;
+	background-image: url(logo.png);
+	background-size: cover;
+	background-position: center;
+	margin-left: 50px;
+    border-radius: 10% 20% 10% 20%;
+    margin-top: 10px;
+}
+
+
+a{
+	width: 100px;
+	text-decoration: none;
+	font-size: 20px
+}

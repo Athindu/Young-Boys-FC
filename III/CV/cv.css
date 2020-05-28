@@ -1,0 +1,200 @@
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Trebuchet MS",Sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+a {
+    color: #66cc99;
+    text-decoration: none;
+}
+
+.clearfix::after, .clearfix::before {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.profile {
+    background: #fff;
+    width: 40%;
+    float: left;
+    color: #9099a0;
+
+}
+
+
+.profile h1 {
+    font-size: 2.5em;
+    text-align: left;
+    font-family: Copperplate Gothic Light;
+    color: #4a4e51;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-top: 40px;
+
+}
+
+.profile li {
+    margin-bottom: 10px;
+}
+
+.profile .picture_wrapper {
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+.profile .picture {
+    width: 230px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 0px;
+    display: table;
+    position: relative;
+    vertical-align: middle;
+}
+.facebook{
+     width: 230px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 0px;
+    display: table;
+    position: relative;
+    vertical-align: middle;
+}
+
+.profile .picture img {
+    border-radius: 50%;
+    width: 130px;
+}
+
+.profile .list-titles {
+    float: left;
+    text-align: left;
+    font-weight: 600;
+    width: 40%;
+    color: #4a4e51;
+}
+
+.list-content{
+    list-style-type: none;
+    float:left;
+    width:60%;
+    text-align:left;
+    font-weight:300;
+}
+
+.profile .contact-data {
+    color: #4a4e51;
+    text-align: left;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.edu {
+    background: #3d3e42;
+    width: 60%;
+    float: left;
+    position: relative;
+    color: #9099a0;
+    font-weight: 300;
+    min-height: 100%;
+}
+
+.edu h3.edu-title {
+    color: #66cc99;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.edu .result1 {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+}
+
+.edu .result2 {
+    width: 70%;
+    float: left;
+    text-align: left;
+    padding-right: 5%;
+    margin-bottom: 60px;
+}
+
+.edu .edu-title {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.section-padding {
+    padding: 60px 60px 40px 40px;
+}
+
+
+.section-wrapper {
+    width: 50%;
+    float: right;
+    text-align: left;
+    color: #9099a0;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-right: 8%;
+}
+
+
+
+.section-wrapper h3.section-title {
+    color: #66cc99;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+
+.home1{
+        float: left;
+        border-radius: 25px 6px ;
+        list-style-type: none;
+        margin-top: -70px;
+        margin-left: 400px;
+
+}
+
+.home1 a{
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px 14px 16px;
+        text-decoration: none;
+        background-color: #4a4e51 ;
+        color: #FFFFFF;
+        border-radius: 50px 11px ;
+}
+
+.home1 a:hover {     
+    color: #66cc99;
+}

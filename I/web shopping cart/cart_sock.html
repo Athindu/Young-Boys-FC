@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Cart</title>
+        <link rel="stylesheet" href="cart_container.css" type="text/css">
+    </head>
+
+    <body>
+    
+   <div class="header3"></div>
+    <div class="containerNew">
+        <div class="header"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Main%20Page/main.html"><div class="logo"></div></a><div class="headTitle"><br>Young Boys FC</div>
+        </div>
+    <nav>
+  <div class="navi">
+    <ul class="nav">
+    	        <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Main%20Page/main.html">Home</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%204/sitemap/sitemapav.html">Sitemap</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/Group%20details/group_details1.html">Members</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%204/Gallery/Gallery.html"> Gallery </a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%201/web%20shopping%20cart/main%20cart.html">Shop</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/Quiz/quiz.html">Quiz</a></li>
+                <li class="home1"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%203/players/players.html">Players</a></li>
+  </div>
+</nav>
+        
+            <div class="topic">Club Socks</div>
+            <div class="fontAdjust">
+                <button class="button" type="button" onclick="increase()" style="height: 40px; width: 30px;">+</button>
+                <button class="button" type="button" onclick="usually()" style="height: 40px; width: 80px;">Default</button>
+                <button class="button" type="button" onclick="decrease()" style="height: 40px; width: 30px;">-</button>
+            </div>
+
+<br>
+
+        <form class="formStyle">
+            <label> Name </label> <input type="text" id="textName" type="text" placeholder="E.g.: Lionel Messi "> <br><br>
+            <label> Email&nbsp;&nbsp;&nbsp;</label> <input type="email" id="textEmail" type="text" placeholder="E.g.: ****@email.com"> <br><br>
+            <label> Telephone Number </label> <input id="textTP" type="text" placeholder="E.g.: 07x xxx xxxx"> <br><br>
+
+            <button class="button" type="button" onclick="displayMessage()">Submit</button>
+        </form>
+        <br>
+        <br>
+        <div class="saleContainer">
+            <div class="saleImage">
+                <img src="sock 1.jpg">
+            </div>
+            <div class="saleHeader">Sock Category I</div>
+            <div class="saleDetail">
+                <table>
+                    <tr>    <th>Item No</th>    <td>7</td>     </tr>
+                    <tr>    <th>Brand</th>    <td>Puma(Striped Version)</td>     </tr>
+                    <tr>    <th>Price</th>    <td>USD 47</td>     </tr>
+                </table>
+            </div>
+            <div class="saleQuantity">
+                <table>  <tr> <th>Number of quantity</th>  </tr>  </table>
+           </div>
+            <div class="saleInput">
+                <input id="textQty1" type="text" placeholder="E.g.: 1" value="0">
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="saleContainer">
+            <div class="saleImage">
+                <img src="sock 2.jpg">
+            </div>
+            <div class="saleHeader">Sock Category II</div>
+            <div class="saleDetail">
+                <table>
+                    <tr>    <th>Item No</th>    <td>8</td>     </tr>
+                    <tr>    <th>Brand</th>    <td>Nike</td>     </tr>
+                    <tr>    <th>Price</th>    <td>USD 40</td>     </tr>
+                </table>
+            </div>
+            <div class="saleQuantity">
+                <table> <tr>  <th>Number of quantity</th>  </tr>    </table>
+           </div>
+            <div class="saleInput">
+                <input id="textQty2" type="text" placeholder="E.g.: 1" value="0">
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="saleContainer">
+            <div class="saleImage">
+                <img src="sock 3.jpg">
+            </div>
+            <div class="saleHeader">Sock Category III</div>
+            <div class="saleDetail">
+                <table>
+                    <tr>    <th>Item No</th>    <td>9</td>     </tr>
+                    <tr>    <th>Brand</th>    <td>Nike</td>     </tr>
+                    <tr>    <th>Price</th>    <td>USD 41</td>     </tr>
+                </table>
+            </div>
+            <div class="saleQuantity">
+                <table> <tr>  <th>Number of quantity</th>  </tr>    </table>
+           </div>
+            <div class="saleInput">
+                <input id="textQty3" type="text"  placeholder="E.g.: 1" value="0">
+            </div>
+        </div>
+
+        <br><br>
+
+        <div class="footer"><br>
+            <li class="home3"><a href="file:///C:/Users/Athindu/Desktop/Web%20CW/Student%201/CV/student1-CV.html"> Site creator - A.M.A.A.Umayanga</a></li>
+            <div class="gallery1"></div>
+            <div class="gallery2"></div>
+            <div class="gallery3"></div>
+        </div>
+            <h3 id="text2">Follow us on :</h3>
+        <h3 id="text3">Young Boys FC / insta</h3>
+        <h3 id="text4">Young Boys FC / fb.com</h3>
+        <h3 id="text5">@Young_Boys_FC / twi </h3>
+        </div>
+               
+     <div class="footer3"></div>
+        
+    </body>
+    <script src="cart_sock.js"></script>
+</html>
